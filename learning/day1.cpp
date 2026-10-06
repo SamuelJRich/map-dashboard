@@ -27,7 +27,10 @@ int main() {
 
    cout << area;
 
-
+   int specialNumber;
+   cout << "Present thy number: ";
+   cin >> specialNumber;
+   cout << "The special number is " << specialNumber;
 
     return 0; // return statement matching function data type :)
 }
