@@ -2,7 +2,10 @@
 #include <iostream>
 using namespace std;
 
-
+struct dogs{
+    string breed;
+    int age;
+};
 
 int main() {
     string lyric = "awooo";
@@ -25,6 +28,8 @@ int main() {
     int width = 5;
     int area = length * width;
 
+    
+
    cout << area;
 
    int specialNumber;
@@ -32,10 +37,20 @@ int main() {
    cin >> specialNumber;
    cout << "The special number is " << specialNumber;
 
+    dogs dog1;
+    dog1.breed = "cockapoo";
+    dog1.age = 7;
+    dogs dog2;
+    dog2.breed = "german shepherd";
+    dog2.age = 10;
+
+    cout << dog2.breed;
+
     return 0; // return statement matching function data type :)
+
+
 }
 
-
-
+// Got to Auto types keyword in Data Types from C++ W3Schools.
 
 
