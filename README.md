@@ -1,1 +1,1 @@
-# securo-dashboard
+# map-dashboard
