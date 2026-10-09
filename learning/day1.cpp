@@ -51,6 +51,11 @@ int main() {
     string &lion = cat;
     cout << lion;
 
+    string* ptr = &cat; // Stores the memory dress as a value = Pointer
+                        // Pointer Type == Var Type
+                        // Standard format of type* ptr = &var
+
+
     return 0; // return statement matching function data type :)
 
 
