@@ -45,12 +45,15 @@ int main() {
     dog2.age = 10;
 
     cout << dog2.breed;
+    cout << &dog2 << "\n"; // & can be used to get the memory address of a variable, also used for ref variable (see below)
+
+    string cat = "wild";
+    string &lion = cat;
+    cout << lion;
 
     return 0; // return statement matching function data type :)
 
 
 }
-
-// Got to Auto types keyword in Data Types from C++ W3Schools.
 
 
