@@ -61,6 +61,14 @@ int main() {
     cout << sizeof(testInteger) << "\n";
     cout << sizeof(testString) << "\n";
 
+    string* word = new string; // Variable storing the address of the new location to be used.
+    *word = "test"; //stores a value
+    cout << *word; //outputs the value
+
+    delete word; // frees up the memory space and and memory leak e.g. crash + slowed
+
+    
+
 
     return 0; // return statement matching function data type :)
 
