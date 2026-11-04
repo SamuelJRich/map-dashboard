@@ -34,7 +34,7 @@ int main() {
 
    int specialNumber;
    cout << "Present thy number: ";
-   cin >> specialNumber;
+   // cin >> specialNumber;
    cout << "The special number is " << specialNumber;
 
     dogs dog1;
@@ -54,6 +54,12 @@ int main() {
     string* ptr = &cat; // Stores the memory dress as a value = Pointer
                         // Pointer Type == Var Type
                         // Standard format of type* ptr = &var
+
+    int testInteger;
+    string testString = "test";
+
+    cout << sizeof(testInteger) << "\n";
+    cout << sizeof(testString) << "\n";
 
 
     return 0; // return statement matching function data type :)
